@@ -1,0 +1,183 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{vmargin}
+\usepackage[ddmmyy]{datetime}
+\usepackage{anyfontsize}
+\usepackage{xcolor}
+\usepackage{multirow}
+\setmarginsrb{3 cm}{2.5 cm}{3 cm}{2.5 cm}{1 cm}{1.5 cm}{1 cm}{1.5 cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DATOS GENERALES
+
+\title{Ley de Ohm}	
+\author{Lorenzo Duh}	
+\newcommand{\padron}{114926} 
+\newcommand{\tpnumber}{1}  
+\date{\today}					
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\theauthor}
+\lhead{\thetitle}
+\cfoot{\thepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%% CARATULA - NO TOCAR
+\begin{titlepage}
+    \includegraphics[scale = 0.75]{img/logofiuba.png}\\[1.0 cm]	    % Logo fiuba
+    \centering
+	\textsc{\Large 86.02}\\[0.2 cm]
+	\textsc{\large Introducción a la Ingeniería Electrónica}\\[4 cm]
+	\textcolor{cyan}{{\fontsize{40}{60}\selectfont \bfseries \thetitle}}\\[0.5cm]
+	{ \Large \bfseries Trabajo Práctico N$^\circ$\tpnumber}\\[5cm]
+	
+	
+    \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}\\[0.5cm]
+    \begin{minipage}{.4\textwidth}
+    \textbf{Autor}:\\
+    \theauthor
+    \end{minipage}%
+    \begin{minipage}{.4\textwidth}
+    \textbf{Padrón}:\\
+    \padron
+    \end{minipage}%
+    \begin{minipage}{.2\textwidth}
+    \textbf{Fecha}:\\
+    \thedate
+    \end{minipage}
+ 
+	\vfill
+	
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\tableofcontents    % Comentar o descomentar segun se desee o no una pagina con el indice
+%\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introducción}
+
+\section{Experiencia 1}
+\subsection{Análisis de los Resultados}
+
+\begin{table}[h!]
+  \begin{center}
+    \caption{Mediciones de Tensión y Corriente}
+    \label{tab:Tensión y corriente}  %etiqueta para referenciar la tabla
+    \begin{tabular}{|c|c|c|c|c} % cantidad de columnas que va a tener representadas por las letras l, c, r, que indican el alineamiento (left, center, right). Una barra vertical "|" entre dos letras representa una linea dibujada entre las dos columnas
+      \hline
+      $V [V]$ & $\Delta V [V]$ & $I [A]$ & $\Delta I [A]$ \\ %los valores de cada columna, se separan con un "&". Al terminar con todas las columnas, se pasa a la siguiente línea con "\\".
+      \hline
+      1,00 & 0,10 & 0,03 & 0,01 \\ 
+      \hline
+      2,00 & 0,10 & 0,06 & 0,01 \\ 
+      \hline
+      3,00 & 0,10 & 0,09 & 0,01 \\ 
+      \hline
+      4,00 & 0,10 & 0,12 & 0,01 \\ 
+      \hline
+      5,00 & 0,10 & 0,16 & 0,01 \\ 
+      \hline
+      6,00 & 0,10 & 0,19 & 0,01 \\  
+      \hline
+      7,00 & 0,10 & 0,22 & 0,01 \\     
+      \hline
+      8,00 & 0,10 & 0,25 & 0,01 \\     
+    \hline
+      \end{tabular}
+  \end{center}
+\end{table}
+
+\begin{figure}[h]
+\includegraphics[width=0.9\textwidth]{img/I(T).jpg}\\	
+\caption{Gráfico de Corriente en función de la Tensión}
+\label{fig:figure2}
+\end{figure}
+
+Se observa en las mediciones y en el gráfico una tendencia lineal, es decir que existe una relación proporcionalmente directa entre la tensión y la corriente. Esto significa
+que se puede calcular la constante que relaciona ambas variables, a la cual denominaremos ''Conductividad''. A la inversa de esta constante se le llama Resistencia, y se la
+puede calcular a través de la Ley de Ohm: 
+
+\begin{align}
+    R = \frac{V}{I}
+\end{align}
+
+\begin{table}[h!]
+  \begin{center}
+    \caption{Resistencia calculada}
+    \label{tab:Resistencias}  %etiqueta para referenciar la tabla
+    \begin{tabular}{|c|c|c|c|c} % cantidad de columnas que va a tener representadas por las letras l, c, r, que indican el alineamiento (left, center, right). Una barra vertical "|" entre dos letras representa una linea dibujada entre las dos columnas
+      \hline
+      $V [V]$ & $I [A]$ & $R_1 [\Omega]$ & $\Delta R_1 [\Omega]$ \\ %los valores de cada columna, se separan con un "&". Al terminar con todas las columnas, se pasa a la siguiente línea con "\\".
+      \hline
+      1,00 & 0,03 & 33,33 & 11,60 \\ 
+      \hline
+      2,00 & 0,06 & 33,33 & 5,80 \\ 
+      \hline
+      3,00 & 0,09 & 33,33 & 3,87 \\ 
+      \hline
+      4,00 & 0,12 & 33,33 & 2,90 \\ 
+      \hline
+      5,00 & 0,16 & 31,25 & 2,05 \\ 
+      \hline
+      6,00 & 0,19 & 31,58 & 1,74 \\  
+      \hline
+      7,00 & 0,22 & 31,81 & 1,52 \\     
+      \hline
+      8,00 & 0,25 & 32,00 & 1,34 \\     
+    \hline
+      \end{tabular}
+  \end{center}
+\end{table}
+
+El valor de la incerteza fue calculado mediante el método de propagación de incertezas. Si se observa su variación a lo largo de la tabla, se puede apreciar que 
+a medida que se incrementan los valores de Tensión y Corriente, la incerteza de la Resistencia decrece. Esto indica que si hubiese que determinar la Resistencia a través de
+una sola medición indirecta, sería conveniente usar una Tensión más alta para tener un valor más preciso de la Resistencia.
+
+Por otro lado, podemos complementar nuestro análisis de las incertezas con el intervalo de tolerancia dado por el fabricante. La resistencia tenía en la barra de tolerancia
+el color dorado, que indica la resistencia puede variar $\pm {5} \% $ de su valor indicado. Un ${5} \% $ de $33 \Omega$ representa $1,65 \Omega $. 
+
+A continuación se hace 
+comparación gráfica entre el intervalo de incertidumbre calculado de una de las mediciones indirectas, y el proporcionado por el fabricante:
+
+\section{Experiencia 2}
+
+\subsection{Análisis de los resultados}
+
+\begin{table}[h!]
+  \begin{center}
+    \caption{Mediciones de Tensión y Corriente}
+    \label{tab:Tensión y corriente 2}  %etiqueta para referenciar la tabla
+    \begin{tabular}{|l|c|c|c|c|c|r|} % cantidad de columnas que va a tener representadas por las letras l, c, r, que indican el alineamiento (left, center, right). Una barra vertical "|" entre dos letras representa una linea dibujada entre las dos columnas
+      \hline
+      $I [A]$ & $\Delta I [A]$ & $V_{AB} [V]$ & $V_{AC} [V]$ & $V_{BC} [V]$ & $\Delta V [V]$ \\ %los valores de cada columna, se separan con un "&". Al terminar con todas las columnas, se pasa a la siguiente línea con "\\".
+      \hline
+      0,02 & 0,01 & 3,10 & 5,00 & 1,80 & 0,10 \\   
+    \hline
+      \end{tabular}
+  \end{center}
+\end{table}
+
+\section{Conclusiones}
+
+El comando ``cdot'' es conveniente para expresar multiplicación, dejando un espacio entre factores, para mejor entendimiento.
+
+\end{document}
