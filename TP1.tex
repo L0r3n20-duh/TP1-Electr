@@ -71,10 +71,7 @@
 %\tableofcontents    % Comentar o descomentar segun se desee o no una pagina con el indice
 %\pagebreak
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Introducción}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                                                                                                                   
 \section{Experiencia 1}
 \subsection{Análisis de los Resultados}
 
@@ -166,16 +163,55 @@ comparación gráfica entre el intervalo de incertidumbre calculado de una de la
   \begin{center}
     \caption{Mediciones de Tensión y Corriente}
     \label{tab:Tensión y corriente 2}  %etiqueta para referenciar la tabla
-    \begin{tabular}{|l|c|c|c|c|c|r|} % cantidad de columnas que va a tener representadas por las letras l, c, r, que indican el alineamiento (left, center, right). Una barra vertical "|" entre dos letras representa una linea dibujada entre las dos columnas
+    \begin{tabular}{|c|c|c|c|c|c|c|c|r|} % cantidad de columnas que va a tener representadas por las letras l, c, r, que indican el alineamiento (left, center, right). Una barra vertical "|" entre dos letras representa una linea dibujada entre las dos columnas
       \hline
-      $I [A]$ & $\Delta I [A]$ & $V_{AB} [V]$ & $V_{AC} [V]$ & $V_{BC} [V]$ & $\Delta V [V]$ \\ %los valores de cada columna, se separan con un "&". Al terminar con todas las columnas, se pasa a la siguiente línea con "\\".
+      $R_{1} [\Omega]$ & $R_{2} [\Omega]$ & $I [A]$ & $\Delta I [A]$ & $V_{AB} [V]$ & $V_{AC} [V]$ & $V_{BC} [V]$ & $\Delta V [V]$ \\ %los valores de cada columna, se separan con un "&". Al terminar con todas las columnas, se pasa a la siguiente línea con "\\".
       \hline
-      0,02 & 0,01 & 3,10 & 5,00 & 1,80 & 0,10 \\   
+      33 & 56 & 0,02 & 0,01 & 3,10 & 5,00 & 1,80 & 0,10 \\  
+
     \hline
       \end{tabular}
   \end{center}
 \end{table}
 
+Por ley de Ohm:
+
+\begin{align}
+    V_{f} & = I \cdot (R_{1}+R_{2}) \\
+    I & = \frac{V_{f}}{(R_{1}+R_{2})}
+\end{align}
+
+Entonces las caídas de tensión son:
+
+\begin{align}
+    V_{AB} = V_{R1} & = I \cdot R_{1} = \frac{V_{f} \cdot R_{1}}{(R_{1}+R_{2})} = \frac{5V \cdot 33\Omega}{{33}{\Omega}+{56}{\Omega}}=1.85V\\
+    V_{BC} = V_{R2} & = I \cdot R_{2} = \frac{V_{f} \cdot R_{2}}{(R_{1}+R_{2})} = \frac{5V \cdot 56\Omega}{{33}{\Omega}+{56}{\Omega}}=3,15V
+\end{align}
+
+Comparando con los valores de la tabla, se puede ver que la diferencia entre los valores experimentales y teóricos es bastante baja, de solamente 0,05V (dentro
+del margen de incertidumbre). Igualmente se puede explicar que haya una caída de tensión ``invisible'' por la resistencia que opone el instrumento de medición, despreciable
+en este caso.
+
+\subsection{Generalización a N resistores en serie}
+La segunda ley de Kirchoff expresa lo siguiente:
+\begin{align}
+  \sum_{i=1}^{n} V_{k} = 0
+\end{align}
+Esto significa que la suma de las caídas de tensiones es igual a la tensión de la fuente, entonces:
+\begin{align}
+  I \cdot \sum_{i=1}^{n} R_{k} = V_{f}\\
+  I = \frac{V_{f}}{\sum_{i=1}^{n} R_{k} }
+\end{align}
+La caída de tensión en cada resistor se calcula así:
+\begin{align}
+  V_{Ri}=I\cdot R_{i}
+\end{align}
+Y si reemplazamos:
+\begin{align}
+  V_{Ri}= \frac{V_{f} \cdot R_{i}}{\sum_{i=1}^{n} R_{k} }
+\end{align}
+
+De esta forma tenemos la expresión de la caída de tensión en función de la resistencia e independiente de la corriente.
 \section{Conclusiones}
 
 El comando ``cdot'' es conveniente para expresar multiplicación, dejando un espacio entre factores, para mejor entendimiento.
