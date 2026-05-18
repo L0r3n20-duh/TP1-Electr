@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.23)  8 APR 2026 10:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.23)  16 MAY 2026 17:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -586,6 +586,25 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen151
 \Gin@req@width=\dimen152
+) (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip55
+\subfigcapskip=\skip56
+\subfigcaptopadj=\dimen153
+\subfigbottomskip=\skip57
+\subfigcapmargin=\dimen154
+\subfiglabelskip=\skip58
+\c@subfigure=\count277
+\c@lofdepth=\count278
+\c@subtable=\count279
+\c@lotdepth=\count280
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.cfg)
+\subfig@top=\skip59
+\subfig@bottom=\skip60
 ) (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
  (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
@@ -596,30 +615,30 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count277
+\etb@tempcnta=\count281
 )) (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip55
-\f@nch@offset@elh=\skip56
-\f@nch@offset@erh=\skip57
-\f@nch@offset@olh=\skip58
-\f@nch@offset@orh=\skip59
-\f@nch@offset@elf=\skip60
-\f@nch@offset@erf=\skip61
-\f@nch@offset@olf=\skip62
-\f@nch@offset@orf=\skip63
-\f@nch@height=\skip64
-\f@nch@footalignment=\skip65
-\f@nch@widthL=\skip66
-\f@nch@widthC=\skip67
-\f@nch@widthR=\skip68
+\f@nch@headwidth=\skip61
+\f@nch@offset@elh=\skip62
+\f@nch@offset@erh=\skip63
+\f@nch@offset@olh=\skip64
+\f@nch@offset@orh=\skip65
+\f@nch@offset@elf=\skip66
+\f@nch@offset@erf=\skip67
+\f@nch@offset@olf=\skip68
+\f@nch@offset@orf=\skip69
+\f@nch@height=\skip70
+\f@nch@footalignment=\skip71
+\f@nch@widthL=\skip72
+\f@nch@widthC=\skip73
+\f@nch@widthR=\skip74
 \@temptokenb=\toks26
 ) (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/vmargin\vmargin.sty
 Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 
 Package: vmargin 2004/07/15 V2.5 set document margins (VK)
-\PaperWidth=\dimen153
-\PaperHeight=\dimen154
+\PaperWidth=\dimen155
+\PaperHeight=\dimen156
 ) (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
  (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fmtcount.sty
@@ -632,42 +651,42 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks27
 \XKV@tempa@toks=\toks28
 )
-\XKV@depth=\count278
+\XKV@depth=\count282
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcprefix.sty
 Package: fcprefix 2012/09/28
  (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcnumparser.sty
 Package: fcnumparser 2017/06/15
-\fc@digit@counter=\count279
+\fc@digit@counter=\count283
 ))
-\c@padzeroesN=\count280
-\fc@tmpcatcode=\count281
-\@DT@modctr=\count282
-\@ordinalctr=\count283
-\@orgargctr=\count284
-\@strctr=\count285
-\@tmpstrctr=\count286
-\@DT@loopN=\count287
-\@DT@X=\count288
+\c@padzeroesN=\count284
+\fc@tmpcatcode=\count285
+\@DT@modctr=\count286
+\@ordinalctr=\count287
+\@orgargctr=\count288
+\@strctr=\count289
+\@tmpstrctr=\count290
+\@DT@loopN=\count291
+\@DT@X=\count292
 ) (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime-defaults.sty
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count289
-\@month=\count290
-\@year=\count291
-\c@HOUR=\count292
-\c@HOURXII=\count293
-\c@MINUTE=\count294
-\c@TOHOUR=\count295
-\c@TOMINUTE=\count296
-\c@SECOND=\count297
-\currenthour=\count298
-\currentminute=\count299
-\currentsecond=\count300
+\@day=\count293
+\@month=\count294
+\@year=\count295
+\c@HOUR=\count296
+\c@HOURXII=\count297
+\c@MINUTE=\count298
+\c@TOHOUR=\count299
+\c@TOMINUTE=\count300
+\c@SECOND=\count301
+\currenthour=\count302
+\currentminute=\count303
+\currentsecond=\count304
 Package datetime Info: No datetime.cfg file found, using default settings on input line 308.
-\@dtctr=\count301
-\dayofyear=\count302
-\dayofweek=\count303
+\@dtctr=\count305
+\dayofyear=\count306
+\dayofweek=\count307
 LaTeX Info: Redefining \today on input line 736.
  (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/datetime\dt-spanish.def
 File: dt-spanish.def 2013/09/10
@@ -695,48 +714,52 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 ) (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip69
-\multirow@cntb=\count304
-\multirow@dima=\skip70
-\bigstrutjot=\dimen155
+\multirow@colwidth=\skip75
+\multirow@cntb=\count308
+\multirow@dima=\skip76
+\bigstrutjot=\dimen157
 ) (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count305
+\l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box53
 ) (TP1.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
+
+
+LaTeX Warning: Label `fig:figure1' multiply defined.
+
 )
 \openout1 = `TP1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
  (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
-\scratchdimen=\dimen156
+\scratchcounter=\count310
+\scratchdimen=\dimen158
 \scratchbox=\box54
-\nofMPsegments=\count307
-\nofMParguments=\count308
+\nofMPsegments=\count311
+\nofMParguments=\count312
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count309
-\MPscratchDim=\dimen157
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
+\MPscratchCnt=\count313
+\MPscratchDim=\dimen159
+\MPnumerator=\count314
+\makeMPintoPDFobject=\count315
 \everyMPtoPDFconversion=\toks32
 ) (C:\Users\Lorenzo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -747,27 +770,116 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <img/logofiuba.png, id=1, 593.96906pt x 131.74219pt>
 File: img/logofiuba.png Graphic file (type png)
 <use img/logofiuba.png>
-Package pdftex.def Info: img/logofiuba.png  used on input line 43.
+Package pdftex.def Info: img/logofiuba.png  used on input line 44.
 (pdftex.def)             Requested size: 445.4757pt x 98.80638pt.
 
-Overfull \hbox (18.04416pt too wide) in paragraph at lines 43--45
+Overfull \hbox (18.04416pt too wide) in paragraph at lines 44--46
  [][]  
  []
 
 [1
 
 {C:/Users/Lorenzo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/logofiuba.png>]
-<img/I(T).jpg, id=10, 1803.73875pt x 986.68625pt>
+<img/Banco 2.jpg, id=10, 299.61937pt x 341.02406pt>
+File: img/Banco 2.jpg Graphic file (type jpg)
+<use img/Banco 2.jpg>
+Package pdftex.def Info: img/Banco 2.jpg  used on input line 84.
+(pdftex.def)             Requested size: 256.46152pt x 291.92203pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/I(T).jpg, id=11, 1352.80406pt x 740.0147pt>
 File: img/I(T).jpg Graphic file (type jpg)
 <use img/I(T).jpg>
-Package pdftex.def Info: img/I(T).jpg  used on input line 107.
+Package pdftex.def Info: img/I(T).jpg  used on input line 125.
 (pdftex.def)             Requested size: 384.68576pt x 210.43213pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[1 <./img/Banco 2.jpg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./img/I(T).jpg>]
+<img/Coloresd.png, id=19, 358.33875pt x 170.13562pt>
+File: img/Coloresd.png Graphic file (type png)
+<use img/Coloresd.png>
+Package pdftex.def Info: img/Coloresd.png  used on input line 178.
+(pdftex.def)             Requested size: 170.97pt x 81.1761pt.
+<img/Código.png, id=21, 227.34938pt x 350.81062pt>
+File: img/Código.png Graphic file (type png)
+<use img/Código.png>
+Package pdftex.def Info: img/Código.png  used on input line 181.
+(pdftex.def)             Requested size: 128.23076pt x 197.86577pt.
+<img/incertezas.jpg, id=22, 1803.73875pt x 986.68625pt>
+File: img/incertezas.jpg Graphic file (type jpg)
+<use img/incertezas.jpg>
+Package pdftex.def Info: img/incertezas.jpg  used on input line 190.
+(pdftex.def)             Requested size: 470.17729pt x 257.19482pt.
+
+Overfull \hbox (42.74576pt too wide) in paragraph at lines 190--190
+ [][] 
  []
 
-[1 <./img/I(T).jpg>] [2] [3] [4] (TP1.aux
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <./img/Coloresd.png> <./img/Código.png>]
+Overfull \hbox (13.22974pt too wide) in paragraph at lines 204--205
+[]\OT1/cmr/m/n/12 La se-gun-da ex-pe-rien-cia con-sis-ti^^So en me-dir la ten-si^^Son en di-fe-ren-tes pun-tos ($\OML/cmm/m/it/12 AB; BC; AC$\OT1/cmr/m/n/12 )
+ []
+
+<img/Banco 1.jpg, id=30, 299.61937pt x 341.02406pt>
+File: img/Banco 1.jpg Graphic file (type jpg)
+<use img/Banco 1.jpg>
+Package pdftex.def Info: img/Banco 1.jpg  used on input line 210.
+(pdftex.def)             Requested size: 141.05318pt x 160.5467pt.
+<img/Banco 12.jpg, id=31, 299.61937pt x 341.02406pt>
+File: img/Banco 12.jpg Graphic file (type jpg)
+<use img/Banco 12.jpg>
+Package pdftex.def Info: img/Banco 12.jpg  used on input line 213.
+(pdftex.def)             Requested size: 141.05318pt x 160.5467pt.
+<img/Banco 13.jpg, id=32, 299.61937pt x 341.02406pt>
+File: img/Banco 13.jpg Graphic file (type jpg)
+<use img/Banco 13.jpg>
+Package pdftex.def Info: img/Banco 13.jpg  used on input line 216.
+(pdftex.def)             Requested size: 141.05318pt x 160.5467pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./img/incertezas.jpg>] [5 <./img/Banco 1.jpg> <./img/Banco 12.jpg> <./img/Banco 13.jpg>] [6]
+<img/litspice.png, id=44, 475.02469pt x 489.32813pt>
+File: img/litspice.png Graphic file (type png)
+<use img/litspice.png>
+Package pdftex.def Info: img/litspice.png  used on input line 294.
+(pdftex.def)             Requested size: 128.23076pt x 132.09048pt.
+<img/litspice plot.png, id=45, 404.26031pt x 323.70938pt>
+File: img/litspice plot.png Graphic file (type png)
+<use img/litspice plot.png>
+Package pdftex.def Info: img/litspice plot.png  used on input line 297.
+(pdftex.def)             Requested size: 256.46152pt x 205.36053pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/litspc.png, id=46, 466.74374pt x 493.0922pt>
+File: img/litspc.png Graphic file (type png)
+<use img/litspc.png>
+Package pdftex.def Info: img/litspc.png  used on input line 310.
+(pdftex.def)             Requested size: 128.23076pt x 135.4691pt.
+<img/litspacegpt.png, id=47, 483.30562pt x 190.46156pt>
+File: img/litspacegpt.png Graphic file (type png)
+<use img/litspacegpt.png>
+Package pdftex.def Info: img/litspacegpt.png  used on input line 313.
+(pdftex.def)             Requested size: 256.46152pt x 101.06909pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7] [8 <./img/litspice.png> <./img/litspice plot.png> <./img/litspc.png> <./img/litspacegpt.png>] [9] (TP1.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -775,19 +887,23 @@ LaTeX Info: Redefining \% on input line 8.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 6666 strings out of 474486
- 108330 string characters out of 5742811
+ 6945 strings out of 474486
+ 113201 string characters out of 5742811
  1941542 words of memory out of 5000000
- 28846 multiletter control sequences out of 15000+600000
- 565345 words of font info for 61 fonts, out of 8000000 for 9000
+ 29119 multiletter control sequences out of 15000+600000
+ 565799 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,12n,79p,1153b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on TP1.pdf (5 pages, 199653 bytes).
+ 72i,12n,79p,1153b,366s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lorenzo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on TP1.pdf (10 pages, 633808 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
