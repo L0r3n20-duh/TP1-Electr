@@ -120,7 +120,7 @@ indicaba el valor de la tensión y la corriente, y lo que se hizo fue aumentar l
   \end{center}
 \end{table}
 
-\begin{figure}[h!]
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.9\textwidth]{img/I(T).jpg}\\	
   \caption{Gráfico de Corriente en función de la Tensión}
@@ -220,8 +220,7 @@ La segunda experiencia consistió en medir la tensión en diferentes puntos ($AB
 \end{figure}
 
 \subsection{Análisis de los resultados}
-
-\begin{table}[h]
+\begin{table}[h!]
   \begin{center}
     \label{tab:Tensión y corriente 2}  %etiqueta para referenciar la tabla
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|} % cantidad de columnas que va a tener representadas por las letras l, c, r, que indican el alineamiento (left, center, right). Una barra vertical "|" entre dos letras representa una linea dibujada entre las dos columnas
@@ -237,33 +236,38 @@ La segunda experiencia consistió en medir la tensión en diferentes puntos ($AB
   \end{center}
 \end{table}
 
-Teniendo en cuenta la ley de Ohm:
+Las caídas de tensión se calculan a partir de la ley de Ohm:
 \begin{align}
     V_{f} & = I \cdot (R_{1}+R_{2}) \\
     I & = \frac{V_{f}}{(R_{1}+R_{2})}
 \end{align}
-Entonces las caídas de tensión en el primer caso son:
 
-\begin{align}
-    V_{AB} = V_{R1} & = I \cdot R_{1} = \frac{V_{f} \cdot R_{1}}{(R_{1}+R_{2})} = \frac{5V \cdot 33\Omega}{{33}{\Omega}+{56}{\Omega}}=1,85V\\
-    V_{BC} = V_{R2} & = I \cdot R_{2} = \frac{V_{f} \cdot R_{2}}{(R_{1}+R_{2})} = \frac{5V \cdot 56\Omega}{{33}{\Omega}+{56}{\Omega}}=3,15V
-\end{align}
+\begin{itemize}
+  \item[Circuito 1:]
+  \begin{description}
+    \begin{align}
+        V_{AB} = V_{R1} & = I \cdot R_{1} = \frac{V_{f} \cdot R_{1}}{(R_{1}+R_{2})} = \frac{5V \cdot 33\Omega}{{33}{\Omega}+{56}{\Omega}}=1,85V\\
+        V_{BC} = V_{R2} & = I \cdot R_{2} = \frac{V_{f} \cdot R_{2}}{(R_{1}+R_{2})} = \frac{5V \cdot 56\Omega}{{33}{\Omega}+{56}{\Omega}}=3,15V
+    \end{align}
 
-Comparando con los valores de la tabla, se observa que la diferencia entre los valores experimentales y teóricos es bastante baja, de solamente 0,05V (dentro
-del margen de incertidumbre). Igualmente se puede explicar que haya caídas de tensión ``ocultas'' fuera de R1 y R2 por la resistencia que opone el instrumento de medición, 
-despreciable en este caso. Si se suma $V_{R1}+V_{R2}$ experimentales, el resultado es 4,90V, que se encuentra en el margen de incertidumbre, por lo que se puede afirmar
-que se verifica la ley de Kirchhoff, dentro del error experimental. 
-
-En el segundo circuito, se obtienen resultados ideales un poco más alejados del experimento: 
-\begin{align}
-    V_{AB} = V_{R1} & = I \cdot R_{1} = \frac{V_{f} \cdot R_{1}}{(R_{1}+R_{2})} = \frac{5V \cdot 1000\Omega}{{1000}{\Omega}+{1000}{\Omega}}=2,5V\\
-    V_{BC} = V_{R2} & = I \cdot R_{2} = \frac{V_{f} \cdot R_{2}}{(R_{1}+R_{2})} = \frac{5V \cdot 1000\Omega}{{1000}{\Omega}+{1000}{\Omega}}=2,5V
-\end{align}
-
-Si se suman de los valores experimentales $V_{R1}+V_{R2}$, el resultado es 4,76V, que tiene una diferencia de 0,26V con respecto al valor ideal. Kirchhoff debería cumplirse, 
-pero ahora el desvío es más grande que antes, y esto evidencia que el modelo ideal del circuito es incompleto, porque ignora las resistencias ``ocultas'' que se mencionaron antes.
-En este caso, el valor de resistencia que oponen los cables, la fuente y el propio multímetro modifican el circuito. El instrumento funciona en paralelo con 
-los resistores, que estando en serie producen una resistencia equivalente muy alta pero el multímetro reduce la resistencia total equivalente (está en paralelo) y cae la tensión.
+    Comparando con los valores de la tabla, se observa que la diferencia entre los valores experimentales y teóricos es bastante baja, de solamente 0,05V (dentro
+    del margen de incertidumbre). Igualmente se puede explicar que haya caídas de tensión ``ocultas'' fuera de R1 y R2 por la resistencia que opone el instrumento de medición, 
+    despreciable en este caso. Si se suma $V_{R1}+V_{R2}$ experimentales, el resultado es 4,90V, que se encuentra en el margen de incertidumbre, por lo que se puede afirmar
+    que se verifica la ley de Kirchhoff, dentro del error experimental. 
+  \end{description}
+  \item[Circuito 2:]
+  \begin{description}
+    En este caso, los resultados están más alejados del experimento.
+    \begin{align}
+        V_{AB} = V_{R1} & = I \cdot R_{1} = \frac{V_{f} \cdot R_{1}}{(R_{1}+R_{2})} = \frac{5V \cdot 1000\Omega}{{1000}{\Omega}+{1000}{\Omega}}=2,5V\\
+        V_{BC} = V_{R2} & = I \cdot R_{2} = \frac{V_{f} \cdot R_{2}}{(R_{1}+R_{2})} = \frac{5V \cdot 1000\Omega}{{1000}{\Omega}+{1000}{\Omega}}=2,5V
+    \end{align}
+    Si se suman de los valores experimentales $V_{R1}+V_{R2}$, el resultado es 4,76V, que tiene una diferencia de 0,26V con respecto al valor ideal. Kirchhoff debería cumplirse, 
+    pero ahora el desvío es más grande que antes, y esto evidencia que el modelo ideal del circuito es incompleto, porque ignora las resistencias ``ocultas'' que se mencionaron antes.
+    En este caso, el valor de resistencia que oponen los cables, la fuente y el propio multímetro modifican el circuito. El instrumento funciona en paralelo con 
+    los resistores, que estando en serie producen una resistencia equivalente muy alta pero el multímetro reduce la resistencia total equivalente (está en paralelo) y cae la tensión.
+  \end{descrption}
+\end{itemize}
 
 \subsection{Generalización a N resistores en serie}
 La segunda ley de Kirchoff expresa lo siguiente:
